@@ -5,4 +5,5 @@ local entity = DBD_Templates.Rush
 entity.Model = LoadCustomInstance("https://github.com/TheGuyThatCodez/DBD-AlternateUniverse/blob/main/Ripper.rbxm?raw=true")
 entity.Speed = 2
 entity.Kills = false
+entity.PlaySounds = {"Static","Near"}
 DBD_SpawnRushlike(entity)
